@@ -1,6 +1,6 @@
 # AeroDesk OS
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 ![Architecture](https://img.shields.io/badge/arch-x86--32-green.svg)
 ![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)
 ![Status](https://img.shields.io/badge/status-development-orange.svg)
