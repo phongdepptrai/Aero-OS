@@ -1,0 +1,132 @@
+# AeroDesk OS - Git Ignore File
+
+# Build artifacts
+build/
+*.o
+*.elf
+*.a
+*.iso
+*.img
+
+# Kernel and bootloader files (generated)
+aerodesk_kernel.elf
+libsal.a
+aerodesk.iso
+
+# ISO build directories
+isodir/
+simple_iso/
+test_iso/
+
+# Backup files
+*.backup
+*.bak
+*.orig
+Makefile.backup
+Makefile.original
+
+# Editor and IDE files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+Thumbs.db
+
+# Development tools
+.gdb_history
+gmon.out
+*.gcov
+*.gcda
+*.gcno
+
+# Temporary files
+*.tmp
+*.temp
+core
+core.*
+
+# Log files
+*.log
+debug.log
+kernel.log
+serial.log
+
+# QEMU files
+qemu.log
+*.qcow2
+*.raw
+
+# Assembly listings
+*.lst
+*.map
+
+# Dependency files
+*.d
+.deps/
+
+# Object dump files
+*.objdump
+*.disasm
+
+# Memory dumps
+*.dump
+*.mem
+
+# Test outputs
+test_results/
+test_output/
+*.test
+
+# Documentation builds
+docs/_build/
+docs/html/
+docs/latex/
+
+# Python cache (if using Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archive files
+*.tar.gz
+*.zip
+*.7z
+*.rar
+
+# System files
+.fuse_hidden*
+.directory
+.Trash-*
+ehthumbs.db
+Desktop.ini
+
+# Custom build configurations
+config.local
+local.mk
+user.mk
+
+# Profiling data
+*.prof
+callgrind.out.*
+perf.data*
+
+# Coverage reports
+coverage/
+*.coverage
+
+# Static analysis
+cppcheck.xml
+*.sarif
+
+# Development containers
+.devcontainer/
+docker-compose.override.yml
+
+# Environment files
+.env
+.env.local
+.env.*.local
